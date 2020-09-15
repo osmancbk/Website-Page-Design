@@ -220,7 +220,7 @@ footer {
 
 @media only screen and (min-width: 1200px) {
   .bigContainer {
-    max-width: 1800px;
+    max-width: 1900px;
     margin: 0 auto;
   }
 }
@@ -309,16 +309,17 @@ footer {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
+    align-content: center;
     /* margin: 1.5rem 3rem; */
     padding-bottom: 8px;
   }
   .about-left {
     width: 90%;
-  }
+   
+   }
   .about-right {
     margin-top: 10px;
-    width: 70%;
+    width: 85%;
   }
 
   #services {
